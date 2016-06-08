@@ -1,0 +1,9 @@
+
+dialect  "mvel"
+
+rule "testrule"
+    when
+     Account()
+    then
+   System.out.print("Hi from drools");
+end
